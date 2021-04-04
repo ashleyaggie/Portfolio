@@ -1,0 +1,166 @@
+:root {
+    --sectionBg: #312e2e;
+    --darkColor: #062c43;
+    --skyblue: #054569;
+    --middle: #5591a9;
+    --bright: #9ccddc;
+    --background: #ced7e0;
+}
+
+body {
+    background-color: var(--background);
+    position: relative;
+    color: var(--bright);
+}
+
+/* Header */
+
+header nav {
+    background-color: var(--darkColor);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.emphasis {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: var(--middle);
+}
+
+/* Body Content */
+
+/* Home */
+
+article {
+    color: black;
+}
+
+.homeText {
+    font-family: 'Raleway', sans-serif;
+    padding: 10% 5% 10% 10%;
+}
+
+#home img {
+    width: 15%;
+    min-width: 25%;
+    margin: 6vw 10% 6vw 6vw;
+}
+
+/* End Home section */
+
+/* Main content */
+
+p {
+    padding: 15px;
+}
+
+main section {
+    background-color: var(--darkColor);
+    padding: 50px;
+    margin: 30vh 5% 30vh 5%;
+}
+
+main section h2 {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid;
+    border-radius: 25px;
+    padding: 20px 10px 20px 10px;
+    overflow: auto;
+}
+
+.container {
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.container li {
+    padding: 15px;
+}
+
+#work li {
+    padding: 5%;
+}
+
+.btn {
+    background-color: var(--middle);
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: var(--skyblue);
+}
+
+.card {
+    background: transparent;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.card-image {
+    width: 50%;
+}
+
+.card-content {
+    max-width: 50%;
+}
+
+/* End Main section */
+
+/* Footer */
+
+footer {
+    padding-bottom: 50px;
+    color: black;
+}
+
+/* End footer */
+
+/* Contact webpage */
+
+#message {
+    color: var(--bright);
+    font-size: 20px;
+}
+
+/* End Contact webpage */
+
+/* Media queries */
+
+/* Tablet breakpoint */
+
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Mobile breakpoint */
+
+@media screen and (max-width: 400px) {
+    .homeText {
+        min-width: 100%;
+    }
+
+    #home {
+        overflow: hidden;
+    }
+
+    .responsive-img {
+        width: 100%;
+    }
+
+    .container {
+        font-size: 20px;
+    }
+
+    .card-content {
+        max-width: 100%;
+    }
+
+    main section {
+        padding: 15px;
+    }
+}
+
+/* End content */
