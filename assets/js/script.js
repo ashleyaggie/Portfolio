@@ -16,8 +16,12 @@ $(document).ready(function() {
             $('#aboutMe').removeAttr('data-aos');
             $('#work').removeAttr('data-aos');
             $('#contact').removeAttr('data-aos');
+            $('#home').removeClass('valign-wrapper');
+            $('.mobileShift').removeAttr('font-size').css('font-size','25px');
+            $('.responsive-img').removeAttr('width').removeAttr('min-width').css('min-width','100%').removeAttr('margin');
+            $('#home').addClass('left-align').css('padding','15px');
         } else {
             
         }
-    }).resize(); // This will simulate a resize to trigger the initial run.
+    }).resize();
 });
