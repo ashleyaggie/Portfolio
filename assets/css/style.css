@@ -140,6 +140,11 @@ footer {
 @media screen and (max-width: 400px) {
     .homeText {
         min-width: 100%;
+        padding: 0;
+    }
+    
+    #home img {
+        margin: 0;
     }
 
     #home {
