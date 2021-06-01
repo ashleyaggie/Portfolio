@@ -3,7 +3,7 @@
     --darkColor: #062c43;
     --skyblue: #054569;
     --middle: #5591a9;
-    --bright: #9ccddc;
+    --bright: #82C0D3;
     --background: #ced7e0;
 }
 
@@ -50,8 +50,9 @@ article {
 
 /* Main content */
 
-p {
+ul p {
     padding: 15px;
+    color: white;
 }
 
 main section {
@@ -84,12 +85,14 @@ main section h2 {
 }
 
 .btn {
-    background-color: var(--middle);
-    margin: 10px;
+    background-color: var(--bright);
+    margin-top: 10px;
+    color: black;
 }
 
 .btn:hover {
     background-color: var(--skyblue);
+    color: white;
 }
 
 .card {
