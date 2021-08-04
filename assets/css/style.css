@@ -114,6 +114,11 @@ main section h2 {
     padding-bottom: 20px;
 }
 
+.skills {
+    padding-left: auto;
+    padding-right: auto;
+}
+
 /* End Main section */
 
 /* Footer */
@@ -139,7 +144,9 @@ footer {
 /* Tablet breakpoint */
 
 @media screen and (max-width: 768px) {
-    
+    .row .col.s2 {
+        width: 30%;
+    }
 }
 
 /* Mobile breakpoint */
@@ -172,6 +179,15 @@ footer {
 
     main section {
         padding: 15px;
+    }
+    
+    .row .col.s2 {
+        width: 30%;
+    }
+    
+    .row .col.s4 {
+        width: 35%;
+        padding-top: 10px;
     }
 }
 
