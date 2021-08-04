@@ -110,6 +110,10 @@ main section h2 {
     max-width: 50%;
 }
 
+.row .skill {
+    padding-bottom: 20px;
+}
+
 /* End Main section */
 
 /* Footer */
